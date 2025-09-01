@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f0f0f0;
+}
+
+#przycisk {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#obrazek img {
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 10px;
+}

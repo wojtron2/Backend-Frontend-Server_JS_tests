@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Projekt JS</title>
+</head>
+<body>
+  <h1>Licznik kliknięć</h1>
+  <button id="btn">Kliknij mnie</button>
+  <p>Ilość kliknięć: <span id="counter">0</span></p>
+
+  <script>
+    let counter = 0;
+    document.getElementById("btn").addEventListener("click", () => {
+      counter++;
+      document.getElementById("counter").textContent = counter;
+    });
+  </script>
+</body>
+</html>
