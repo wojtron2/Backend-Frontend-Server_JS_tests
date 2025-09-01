@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <title>Moja pierwsza strona w Node</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Witaj na mojej stronie!</h1>
+    <p>To strona serwowana przez Node.js + Express.</p>
+    <img src="/images/logo.png" alt="Logo" width="220" />
+  </main>
+</body>
+</html>
